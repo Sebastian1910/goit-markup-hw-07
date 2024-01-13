@@ -766,7 +766,20 @@ ol {
     padding: 96px 0;
   }
   .icon-list-two {
+    width: 428px;
     display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+  .icon-section-five {
+    width: 190px;
+    height: 88px;
+  }
+  .dark-bg {
+    width: 428px;
+    height: 664px;
   }
 }
 
