@@ -24,6 +24,26 @@
           <a href="./index.html" class="lo-go link logo-style box-logo">
             Web<span class="span">Studio</span></a
           >
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+
           <ul class="list box-menu">
             <li class="">
               <a
@@ -572,6 +592,66 @@
           <button class="button-send" type="submit">Send</button>
         </form>
       </div>
+    </div>
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="close-btn js-close-menu">
+        <svg width="8" height="8" class="svg-close">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li class="">
+          <a href="./index.html" class="mobile-studio actiwe link">Studio </a>
+        </li>
+        <li>
+          <a href="./portfolio.html" class="mobile-studio link">Portfolio</a>
+        </li>
+        <li>
+          <a href="" class="mobile-studio link">Contacts</a>
+        </li>
+      </ul>
+      <ul class="mobile-adres">
+        <li>
+          <a class="mobile-tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
+        </li>
+        <li>
+          <a class="mobile-mail" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="box-list-icon-mobile">
+        <li class="box-list-icon-li">
+          <a class="icon-social" href="">
+            <svg width="16" height="16" class="icon-svg">
+              <use href="./images/icons.svg#icon-instagram-2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="box-list-icon-li">
+          <a class="icon-social" href="">
+            <svg width="16" height="16" class="icon-svg">
+              <use href="./images/icons.svg#icon-twitter-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="box-list-icon-li">
+          <a class="icon-social" href="">
+            <svg width="16" height="16" class="icon-svg">
+              <use href="./images/icons.svg#icon-facebook-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="box-list-icon-li">
+          <a class="icon-social" href="">
+            <svg width="16" height="16" class="icon-svg">
+              <use href="./images/icons.svg#icon-linkedin-1"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
 
     <script
