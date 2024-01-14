@@ -239,12 +239,7 @@ ol {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.box-portfolio-list {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  margin-bottom: 72px;
-}
+
 .box-center {
   display: grid;
   justify-items: center;
@@ -853,6 +848,16 @@ ol {
   .button-subscribe {
     margin: 0 auto;
   }
+  /* Portfolio */
+
+  .box-portfolio-list {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 72px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
   /* Menu Mobile */
 
   .mobile-studio {
@@ -912,6 +917,9 @@ ol {
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1157px) {
+  .container {
+    width: 768px;
+  }
 }
 
 /* Desctop */
@@ -1076,6 +1084,12 @@ ol {
   .form-subscribe {
     display: flex;
     gap: 24px;
+  }
+  .box-portfolio-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
   }
 }
 
