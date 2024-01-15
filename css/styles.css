@@ -723,6 +723,9 @@ ol {
   .box-sestion-three {
     display: none;
   }
+  .menu-toggle {
+    background-color: #fff;
+  }
   .border-header {
     display: flex;
     align-items: center;
