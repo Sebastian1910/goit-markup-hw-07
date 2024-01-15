@@ -918,16 +918,127 @@ ol {
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1157px) {
   .box-icon-section-two svg,
-  .box-sestion-three {
+  .box-sestion-three,
+  .menu-container {
     display: none;
   }
   .container {
     width: 768px;
   }
   .box-nav {
-    padding: 0 16px;
+    padding-left: 16px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+  }
+  .box-menu {
+    display: flex;
+    gap: 40px;
+    padding: 0 120px;
+  }
+  .box-top {
+    display: flex;
+    align-items: center;
+  }
+  .box-list-address {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .contact {
+    color: var(--SLATE, #434455);
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.48px;
+  }
+  .back {
+    height: 436px;
+    max-width: 768px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg.jpg);
+  }
+  .top {
+    width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-white);
+    padding-top: 112px;
+    padding-bottom: 36px;
+  }
+  .box-list-section-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 72px 0;
+    padding: 96px 0;
+  }
+  .box-link-section-two {
+    width: 356px;
+  }
+  .box-section-four {
+    width: 768px;
+  }
+  .box-list-bg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 64px 24px;
+    padding-bottom: 96px;
+  }
+  .box-link-bg {
+    width: 264px;
+  }
+  .box-heading-bg {
+    padding-top: 96px;
+  }
+  .icon-section-five {
+    width: 168px;
+    height: 88px;
+  }
+  .icon-list-two {
+    width: 552px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+
+  .container-tablet {
+    width: 768px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 96px 0;
+  }
+  .box-footer {
+    width: 768px;
+    height: 456px;
+  }
+  .box-footer-div {
+    padding-top: 96px;
+    padding-left: 108px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .social-box {
+    padding-left: 24px;
+  }
+  .div-subscribe {
+    padding-top: 72px;
+  }
+  .form-subscribe {
+    display: flex;
+    gap: 24px;
   }
 }
 
