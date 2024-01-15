@@ -176,16 +176,6 @@ ol {
   padding-left: 0;
 }
 
-.list-item-header {
-  color: var(--color-dark-grey);
-  text-align: center;
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-}
 .box-order-service {
   display: block;
   min-width: 169px;
@@ -290,6 +280,18 @@ ol {
   margin-bottom: 8px;
 }
 
+.list-item-name {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
 .icon-section-five {
   width: calc((100% - 120px) / 6);
   height: 88px;
@@ -613,6 +615,16 @@ ol {
 .div-input {
   position: relative;
 }
+.class-p {
+  color: var(--SLATE, #434455);
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
 .input {
   width: 100%;
   height: 40px;
@@ -761,7 +773,16 @@ ol {
     gap: 72px;
     padding: 98px 16px;
   }
-
+  .list-item-header {
+    color: var(--color-dark-grey);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
   .box-icon-section-two {
     display: flex;
     width: 396px;
@@ -769,16 +790,7 @@ ol {
     align-items: flex-start;
     gap: 8px;
   }
-  .class-p {
-    color: var(--SLATE, #434455);
-    text-align: center;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-  }
+
   .box-list-bg {
     display: inline-flex;
     gap: 72px;
@@ -975,6 +987,15 @@ ol {
     padding-top: 112px;
     padding-bottom: 36px;
   }
+  .list-item-header {
+    color: var(--color-dark-grey);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
   .box-list-section-two {
     display: flex;
     flex-wrap: wrap;
@@ -1085,7 +1106,14 @@ ol {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   }
-
+  .list-item-header {
+    color: var(--color-dark-grey);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+  }
   .box-top {
     display: flex;
   }
