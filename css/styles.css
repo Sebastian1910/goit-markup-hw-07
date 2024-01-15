@@ -229,7 +229,16 @@ ol {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-
+.back {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/Dark-bg.jpg);
+}
 .box-center {
   display: grid;
   justify-items: center;
@@ -715,6 +724,19 @@ ol {
   gap: 40px;
 }
 
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .back {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg@2x.jpg);
+  }
+}
+
 /* Mobile */
 @media (min-width: 320px) and (max-width: 767px) {
   .contact,
@@ -743,18 +765,6 @@ ol {
     width: 428px;
   }
 
-  .back {
-    height: 432px;
-    max-width: 428px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/Dark-bg.jpg);
-  }
   .top {
     width: 320px;
     color: var(--color-white);
@@ -824,8 +834,7 @@ ol {
     height: 88px;
   }
   .dark-bg {
-    width: 428px;
-    height: 664px;
+    height: 432px;
   }
   .box-social {
     width: 268px;
@@ -959,6 +968,9 @@ ol {
     flex-direction: column;
     gap: 16px;
   }
+  .dark-bg {
+    height: 436px;
+  }
   .contact {
     color: var(--SLATE, #434455);
 
@@ -968,18 +980,7 @@ ol {
     line-height: 14px;
     letter-spacing: 0.48px;
   }
-  .back {
-    height: 436px;
-    max-width: 768px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/Dark-bg.jpg);
-  }
+
   .top {
     width: 496px;
     font-size: 56px;
@@ -1077,18 +1078,6 @@ ol {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .back {
-    max-width: 1440px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/people-office.jpg);
-  }
-
   .top {
     font-size: 56px;
     line-height: 1.07;
@@ -1096,7 +1085,9 @@ ol {
     letter-spacing: 0.02em;
     color: var(--color-white);
   }
-
+  .dark-bg {
+    height: 600px;
+  }
   .container {
     width: 1158px;
     padding: 0 15px;
