@@ -917,8 +917,17 @@ ol {
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1157px) {
+  .box-icon-section-two svg,
+  .box-sestion-three {
+    display: none;
+  }
   .container {
     width: 768px;
+  }
+  .box-nav {
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
