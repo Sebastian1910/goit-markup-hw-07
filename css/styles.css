@@ -212,7 +212,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1158px;
+  max-width: 396px;
   padding: 0 16px;
   margin: 0 auto;
 }
@@ -323,7 +323,7 @@ ol {
   width: calc((100% - 48px) / 3);
 }
 .box-bg {
-  padding: 188px 0;
+  padding: 112px 0;
   margin: 0 auto;
 }
 .box-section-four {
@@ -447,7 +447,7 @@ ol {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .icon-section-four {
@@ -459,6 +459,7 @@ ol {
   align-items: center;
 }
 .icon-section-five {
+  max-width: 190px;
   width: calc((100% - 120px) / 2);
 }
 .icon-link-five {
@@ -480,7 +481,7 @@ ol {
   color: #404bbf;
 }
 .box-section-five {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .icon-social {
@@ -748,6 +749,7 @@ ol {
   color: #ffffff;
 }
 .div-subscribe {
+  padding-top: 72px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -776,7 +778,7 @@ ol {
   gap: 24px;
 }
 .input-subscribe {
-  width: 264px;
+  width: 398px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -951,6 +953,11 @@ ol {
   flex-direction: column;
   padding-bottom: 48px;
 }
+.box-footer-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
@@ -969,7 +976,12 @@ ol {
   .mobile-box-top {
     display: none;
   }
-
+  .container {
+    width: 100%;
+    max-width: 768px;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
   .box-top {
     display: flex;
   }
@@ -984,6 +996,7 @@ ol {
     flex-basis: calc((100% - 72px) / 2);
   }
   .icon-section-five {
+    max-width: 168px;
     width: calc((100% - 120px) / 3);
   }
   .box-link-footer {
@@ -997,6 +1010,7 @@ ol {
     align-items: flex-start;
   }
   .div-subscribe {
+    padding-top: 72px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1013,9 +1027,25 @@ ol {
     flex-direction: column;
     justify-content: center;
   }
+  .input-subscribe {
+    width: 264px;
+  }
 }
 
 @media (min-width: 1158px) {
+  .box-section-five {
+    padding: 120px 0;
+  }
+  .box-bg {
+    padding: 188px 0;
+    margin: 0 auto;
+  }
+  .container {
+    width: 100%;
+    max-width: 1158px;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
   .box-icon-section-two {
     display: flex;
   }
@@ -1040,6 +1070,7 @@ ol {
   .box-footer-div {
     display: flex;
     align-items: baseline;
+    flex-direction: row;
   }
   .footer-logo-social {
     flex-wrap: nowrap;
