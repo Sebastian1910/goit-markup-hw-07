@@ -260,11 +260,6 @@ ol {
   align-items: center;
 }
 
-.box-list-address {
-  margin: 24px 0;
-  display: flex;
-  gap: 40px;
-}
 .box-address {
   margin-left: auto;
   font-style: normal;
@@ -1013,6 +1008,11 @@ ol {
     letter-spacing: 1.12px;
     text-transform: none;
   }
+  .box-list-address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 1158px) {
@@ -1053,5 +1053,11 @@ ol {
   }
   .list-item-header {
     font-size: 20px;
+  }
+  .box-list-address {
+    margin: 24px 0;
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
   }
 }
