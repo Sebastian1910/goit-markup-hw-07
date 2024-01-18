@@ -138,10 +138,12 @@ body {
 }
 
 .class-p {
+  color: var(--SLATE, #434455);
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-gray);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 .class-h-two {
   font-size: 36px;
@@ -297,7 +299,7 @@ ol {
 }
 .box-list-section-two {
   display: flex;
-  gap: 24px;
+  gap: 72px 24px;
   flex-wrap: wrap;
 }
 .box-link-section-two {
@@ -338,7 +340,7 @@ ol {
 }
 .box-link-bg {
   max-width: 264px;
-  flex-basis: calc(100% - 72px);
+  flex-basis: calc(100%);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -460,7 +462,7 @@ ol {
 }
 .icon-section-five {
   max-width: 190px;
-  width: calc((100% - 120px) / 2);
+  width: calc((100% - 24px) / 2);
 }
 .icon-link-five {
   width: 100%;
@@ -986,7 +988,7 @@ ol {
     display: flex;
   }
   .box-link-section-two {
-    flex-basis: calc((100% - 72px) / 2);
+    flex-basis: calc((100% - 30px) / 2);
   }
   .box-heading-section-two {
     text-align: left;
@@ -1033,6 +1035,9 @@ ol {
 }
 
 @media (min-width: 1158px) {
+  .class-p {
+    font-weight: 400;
+  }
   .box-section-five {
     padding: 120px 0;
   }
