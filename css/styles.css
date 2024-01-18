@@ -461,6 +461,7 @@ ol {
   align-items: center;
 }
 .icon-section-five {
+  height: 88px;
   max-width: 190px;
   width: calc((100% - 24px) / 2);
 }
@@ -780,7 +781,8 @@ ol {
   gap: 24px;
 }
 .input-subscribe {
-  width: 398px;
+  width: 100%;
+  max-width: 398px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -960,6 +962,9 @@ ol {
   flex-direction: column;
   align-items: center;
 }
+.footer-label {
+  width: 100%;
+}
 
 @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
@@ -1031,6 +1036,9 @@ ol {
   }
   .input-subscribe {
     width: 264px;
+  }
+  .footer-label {
+    width: auto;
   }
 }
 
