@@ -1082,6 +1082,7 @@ ol {
     gap: 0;
   }
   .div-subscribe {
+    padding-top: 0;
     padding-left: 88px;
   }
   .form-subscribe {
